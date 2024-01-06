@@ -161,6 +161,11 @@ a:hover{
     color: azure;
 }
 
+span{
+    color: #77066f;
+    font-size: 20px;
+}
+
 .btn{
     display: block;
 	width: 100%;
