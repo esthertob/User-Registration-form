@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/13f5b1b872.js" crossorigin="anonymous"></script>
-</head>
-<body>
+<?php include 'header.php';?>
     <img class="wave" src="../img/wave.svg" alt="">
     <div class="container">
         <div class="img">
@@ -43,12 +32,10 @@
                 </div>
                 <a href="#">Forgotten Password</a>
                 <input type="submit" class="btn" value="Login">
-                <a href="signup.html">Create a new account <span>Login</span></a>
+                <a href="signup.php">Create a new account <span>Login</span></a>
 
             </form>
         </div>
     </div>
 
-    <script type="text/javascript" src="../js/main.js"></script>
-</body>
-</html>
+    <?php include 'footer.php';?>
