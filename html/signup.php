@@ -1,3 +1,4 @@
+<!-- Php code to include extenal pages -->
 <?php include 'header.php';
 include '../config/functions.php';
 register_user();
@@ -9,6 +10,7 @@ register_user();
         </div>
 
         <div class="login-container">
+            <!-- Sign-up Form -->
             <form method="post" class="sign-up-form">
                 <img class="avatar" src="../img/undraw_pic_profile_re_7g2h.svg" alt="">
                 <h2>Welcome</h2>
@@ -62,4 +64,5 @@ register_user();
         </div>
     </div>
 
+<!-- Php code to include footer -->
     <?php include 'footer.php';?>
