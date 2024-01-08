@@ -14,6 +14,13 @@ register_user();
             <form method="post" class="sign-up-form">
                 <img class="avatar" src="../img/undraw_pic_profile_re_7g2h.svg" alt="">
                 <h2>Welcome</h2>
+                <?php 
+                if(isset($_SESSION['MESSAGE']))
+                {
+                    display_message();
+
+                }
+                ?>
                 <div class="input-div one">
                     <div class="i">
                         <i class="fas fa-user"></i>
@@ -21,7 +28,7 @@ register_user();
 
                     <div>
                        <h5>Username</h5>  
-                       <input class="input" type="text">
+                       <input class="input" type="text" name="username">
                     </div>
                 </div>
 
@@ -32,7 +39,7 @@ register_user();
 
                     <div>
                        <h5>Password</h5>  
-                       <input class="input" type="password">
+                       <input class="input" type="password" name="password">
                     </div>
                 </div>
 
@@ -43,7 +50,7 @@ register_user();
 
                     <div>
                        <h5>Confirm password</h5>  
-                       <input class="input" type="text">
+                       <input class="input" type="password" name="cpassword">
                     </div>
                 </div>
 
@@ -54,7 +61,7 @@ register_user();
 
                     <div>
                        <h5>Email</h5>  
-                       <input class="input" type="password">
+                       <input class="input" type="text" name="email">
                     </div>
                 </div>
             
